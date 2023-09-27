@@ -3,3 +3,29 @@
     padding: 0;
 }
 
+mat-sidenav-container {
+    height: calc(100ch - 65px);
+}
+
+mat-toolbar{
+    background-color: rgb(31, 190, 119);
+    color: black;
+}
+
+mat-sidenav {
+    margin: 16px;
+    width: 200px;
+    border-right: none;
+    background: rgb(31, 190, 119);
+    color: black;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+}
+
+.avatar {
+    margin-top: 16px;
+    width: 150px;
+    height: 150px;
+    border-radius: 47%;
+}

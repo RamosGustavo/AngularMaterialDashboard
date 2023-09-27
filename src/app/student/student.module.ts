@@ -4,6 +4,7 @@ import { StudentCreateComponent } from './student-create/student-create.componen
 import { StudentListComponent } from './student-list/student-list.component';
 import { StudentDetailsComponent } from './student-details/student-details.component';
 import { StudentEditComponent } from './student-edit/student-edit.component';
+import { StudentRoutingModule } from './student-routing.module';
 
 
 
@@ -15,7 +16,8 @@ import { StudentEditComponent } from './student-edit/student-edit.component';
     StudentEditComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    StudentRoutingModule
   ]
 })
 export class StudentModule { }
